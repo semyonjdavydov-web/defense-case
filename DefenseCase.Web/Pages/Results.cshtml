@@ -1,0 +1,44 @@
+@page
+@model ResultsModel
+@{ ViewData["Title"] = "Discovery analysis"; var work = Model.Work!; }
+<h1>DISCOVERY ANALYSIS</h1>
+<p>@work.Case.DefendantName · @work.Case.CaseNumber</p>
+@if (work.Running)
+{
+    <p role="status"><span class="spinner-border spinner-border-sm me-2"></span>@work.Status</p>
+    <p class="text-secondary">This can take several minutes. This page updates automatically.</p>
+    <script>setTimeout(() => location.reload(), 4000);</script>
+}
+@if (work.Error != null)
+{
+    <p class="text-danger" role="alert">@work.Error</p>
+    <a asp-page="Upload" class="btn btn-outline-primary">RETRY UPLOAD</a>
+}
+@if (work.Discovery != null)
+{
+    <h2 class="mt-4">MISSING DISCOVERY</h2>
+    @if (work.Discovery.MissingItems.Count == 0) { <p>No supported missing-item finding was established from this packet.</p> }
+    else
+    {
+        <div class="table-responsive"><table class="table align-middle"><thead><tr><th>Missing item</th><th>CPL basis</th><th>Why expected</th><th>Why it matters</th></tr></thead><tbody>
+        @foreach (var item in work.Discovery.MissingItems)
+        {
+            <tr><td>@item.ItemName<small class="d-block text-secondary">@item.SourceFile @(item.PageNumber.HasValue ? "p. " + item.PageNumber : "")</small></td><td>@item.StatutoryBasis</td><td>@item.ReasonExpected</td><td>@item.LegalSignificance</td></tr>
+        }
+        </tbody></table></div>
+    }
+    <p class="text-secondary">Not located in the uploaded packet does not by itself establish a discovery violation.</p>
+    <details class="my-4"><summary>UNDETERMINED ITEMS (@work.Discovery.Checklist.Count(x => x.Status == DiscoveryStatus.UNDETERMINED))</summary>
+        <ul class="mt-3">@foreach (var item in work.Discovery.Checklist.Where(x => x.Status == DiscoveryStatus.UNDETERMINED))
+        { <li class="mb-2"><strong>@item.ItemName</strong> — @item.ReasonExpected</li> }</ul>
+    </details>
+}
+@if (work.Motion != null)
+{
+    <section class="motion-ready"><h2>MOTION READY</h2>
+    <p>Draft for attorney review. Counsel’s chargeable time: @work.Case.SpeedyTrial.ProsecutionChargeableDays days, used unchanged.</p>
+    @if (work.Case.HighestChargeClassification == "Felony")
+    { <p>The felony limit is six calendar months. This draft does not assert expiration from a day count alone.</p> }
+    <a asp-page-handler="Download" class="btn btn-primary">DOWNLOAD WORD MOTION</a></section>
+}
+<p class="mt-5"><a asp-page="NewCase">Start another case</a></p>

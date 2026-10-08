@@ -1,0 +1,13 @@
+@page
+@model UploadModel
+@{ ViewData["Title"] = "Upload discovery"; }
+<h1>UPLOAD DISCOVERY PACKET</h1>
+<p>@Model.Work?.Case.DefendantName · @Model.Work?.Case.CaseNumber</p>
+<p>Upload PDF or DOCX files, below 50 MB combined. Include the COC, readiness papers and relevant discovery correspondence when available.</p>
+<p class="text-secondary">Demo documents only. Files are sent to Azure AI for analysis and are not kept permanently by this application.</p>
+<form method="post" enctype="multipart/form-data">
+    <div asp-validation-summary="All" class="text-danger" role="alert"></div>
+    <label asp-for="Documents" class="form-label">Discovery documents</label>
+    <input asp-for="Documents" type="file" accept=".pdf,.docx" multiple required class="form-control" />
+    <button type="submit" class="btn btn-primary mt-4">ANALYZE &amp; GENERATE MOTION</button>
+</form>

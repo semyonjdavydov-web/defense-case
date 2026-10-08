@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "DefenseCase.Web": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:53987;http://localhost:53988"
+    }
+  }
+}

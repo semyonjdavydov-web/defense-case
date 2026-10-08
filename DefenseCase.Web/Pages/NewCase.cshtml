@@ -1,0 +1,37 @@
+@page
+@model NewCaseModel
+@{ ViewData["Title"] = "New case"; }
+<h1>NEW CASE</h1>
+<p class="text-secondary">Enter case information. Use fictional demo information only.</p>
+<form method="post" class="case-form">
+    <div asp-validation-summary="All" class="text-danger" role="alert"></div>
+    <h2>CASE INFORMATION</h2>
+    <div class="row g-3">
+        <div class="col-md-6"><label asp-for="Input.DefendantName"></label><input asp-for="Input.DefendantName" class="form-control" required maxlength="150" /></div>
+        <div class="col-md-6"><label asp-for="Input.CaseNumber"></label><input asp-for="Input.CaseNumber" class="form-control" required maxlength="100" /></div>
+        <div class="col-md-6"><label asp-for="Input.Court"></label><input asp-for="Input.Court" class="form-control" required maxlength="200" /></div>
+        <div class="col-md-6"><label asp-for="Input.County"></label><input asp-for="Input.County" class="form-control" required maxlength="80" /></div>
+        <div class="col-md-6"><label asp-for="Input.AttorneyName"></label><input asp-for="Input.AttorneyName" class="form-control" required maxlength="150" /></div>
+        <div class="col-md-6"><label asp-for="Input.MotionDate"></label><input asp-for="Input.MotionDate" class="form-control" required /></div>
+        <div class="col-12"><label asp-for="Input.Charge"></label><textarea asp-for="Input.Charge" class="form-control" rows="2" required maxlength="1500"></textarea></div>
+        <div class="col-md-6"><label asp-for="Input.HighestChargeClassification"></label>
+            <select asp-for="Input.HighestChargeClassification" class="form-select" required>
+                <option value="">Select classification</option><option value="Felony">Felony — six months</option>
+                <option value="Misdemeanor90">Misdemeanor punishable by more than three months — 90 days</option>
+                <option value="Misdemeanor60">Misdemeanor punishable by no more than three months — 60 days</option>
+                <option value="Violation">Violation, no crime charged — 30 days</option>
+            </select>
+        </div>
+        <div class="col-md-6"><label asp-for="Input.InstrumentType"></label><select asp-for="Input.InstrumentType" class="form-select" required>
+            <option value="">Select instrument</option><option value="LocalCriminalCourt">Local criminal court accusatory instrument</option><option value="Indictment">Indictment</option>
+        </select></div>
+    </div>
+    <h2 class="mt-5">SPEEDY TRIAL INFORMATION</h2>
+    <p>The chargeable-day figure is supplied by counsel and used unchanged. DefenseCase does not calculate exclusions or chargeable time.</p>
+    <div class="row g-3">
+        <div class="col-md-4"><label asp-for="Input.SpeedyTrial.ArraignmentDate"></label><input asp-for="Input.SpeedyTrial.ArraignmentDate" class="form-control" required /></div>
+        <div class="col-md-4"><label asp-for="Input.SpeedyTrial.CertificateOfComplianceDate"></label><input asp-for="Input.SpeedyTrial.CertificateOfComplianceDate" class="form-control" required /></div>
+        <div class="col-md-4"><label asp-for="Input.SpeedyTrial.ProsecutionChargeableDays"></label><input asp-for="Input.SpeedyTrial.ProsecutionChargeableDays" class="form-control" type="number" min="0" step="1" required /></div>
+    </div>
+    <button class="btn btn-primary mt-4" type="submit">CONTINUE TO UPLOAD</button>
+</form>

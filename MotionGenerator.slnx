@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="DefenseCase.Web/DefenseCase.Web.csproj" />
   <Project Path="MotionGenerator.csproj" />
 </Solution>

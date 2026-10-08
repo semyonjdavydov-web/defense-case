@@ -1,0 +1,260 @@
+[
+  {
+    "Id": "police-report",
+    "ItemName": "Police report",
+    "StatutoryBasis": "CPL 245.20(1)(e)",
+    "Applicability": "Preserves the original checklist item. Evaluate arrest, incident, accident, investigator and other relevant law-enforcement reports, notes and activity logs indicated by the facts. Do not infer a particular report exists without support."
+  },
+  {
+    "Id": "bwc",
+    "ItemName": "Body-worn camera footage",
+    "StatutoryBasis": "CPL 245.20(1)(g)",
+    "Applicability": "Preserves the original checklist item. Expected when reports, inventories, COC or other facts indicate recording. A reference without supplied footage supports a packet-absence finding, not proof the entire production lacked it. Apply recording-volume, availability and protective rules."
+  },
+  {
+    "Id": "cad",
+    "ItemName": "CAD records",
+    "StatutoryBasis": "CPL 245.20(1)(e), (g)",
+    "Applicability": "Preserves the original checklist item, including relevant Sprint/event/dispatch records. Use (e) for written reports and (g) for recordings. Expected when dispatch or incident evidence indicates such records; no automatic missing finding from silence."
+  },
+  {
+    "Id": "911",
+    "ItemName": "911 recordings",
+    "StatutoryBasis": "CPL 245.20(1)(g)",
+    "Applicability": "Preserves the original checklist item. Expected when a report or other source identifies an incident-related 911 call. Distinguish the recording from lawfully withheld caller identity and apply statutory timing and availability rules."
+  },
+  {
+    "Id": "radio",
+    "ItemName": "Radio transmissions",
+    "StatutoryBasis": "CPL 245.20(1)(g)",
+    "Applicability": "Preserves the original checklist item. Evaluate incident-related radio runs/recordings where dispatch or other evidence supports their existence. Do not assume every arrest generated a retained recording."
+  },
+  {
+    "Id": "witness-statements",
+    "ItemName": "Witness statements",
+    "StatutoryBasis": "CPL 245.20(1)(e)",
+    "Applicability": "Preserves the original checklist item. Written, recorded or summarized statements of persons with relevant information, including expected hearing witnesses. Check whether reports already contain the statement before calling a separate document missing."
+  },
+  {
+    "Id": "breath-calibration",
+    "ItemName": "Breathalyzer calibration records",
+    "StatutoryBasis": "CPL 245.20(1)(s)",
+    "Applicability": "Preserves the original checklist item. Evaluate when an instrument was used for scientific testing in an applicable VTL prosecution, including the statutory six-month-before/after period. Later-created records have a separate deadline; do not presume future records already exist."
+  },
+  {
+    "Id": "breath-maintenance",
+    "ItemName": "Breathalyzer maintenance records",
+    "StatutoryBasis": "CPL 245.20(1)(s)",
+    "Applicability": "Preserves the original checklist item, including applicable repair records for the tested instrument and statutory period. Testing must be supported by facts; do not invent a repair event or require records not yet created or due."
+  },
+  {
+    "Id": "operator-certification",
+    "ItemName": "Operator certification",
+    "StatutoryBasis": "CPL 245.20(1)(s)",
+    "Applicability": "Preserves the original checklist item. Evaluate the certification certificate, if any, held by the scientific-machine operator in an applicable VTL case. Identify the operator and instrument from the packet when possible."
+  },
+  {
+    "Id": "crash-photographs",
+    "ItemName": "Crash photographs",
+    "StatutoryBasis": "CPL 245.20(1)(h), (i)",
+    "Applicability": "Preserves the original checklist item. Applicable relevant law-enforcement or intended-witness photographs, including qualifying property reproductions. A crash alone does not establish that photographs were taken."
+  },
+  {
+    "Id": "tow-records",
+    "ItemName": "Tow records",
+    "StatutoryBasis": "CPL 245.20(1)(e), (m), (v)",
+    "Applicability": "Preserves the original checklist item. Evaluate relevant police tow, impound, property or incident records where towing is shown. Privately held material is subject to custody/control and applicable statutory rules, not automatically deemed in prosecution possession."
+  },
+  {
+    "Id": "defendant-statements",
+    "ItemName": "Defendant and co-defendant statements",
+    "StatutoryBasis": "CPL 245.20(1)(a)",
+    "Applicability": "Written/recorded statements and substance of oral statements to law enforcement or those acting with it, relating to charges or defense. Evaluate a statement only when its existence or applicability is supported."
+  },
+  {
+    "Id": "grand-jury",
+    "ItemName": "Grand-jury testimony transcripts",
+    "StatutoryBasis": "CPL 245.20(1)(b)",
+    "Applicability": "Evaluate where grand-jury testimony occurred. Account for reasonable unavailability, transcription-resource timing and later-production rules; do not label nonexistent or lawfully deferred transcripts improperly withheld."
+  },
+  {
+    "Id": "civilian-witnesses",
+    "ItemName": "Civilian witness names and adequate contact information",
+    "StatutoryBasis": "CPL 245.20(1)(c)",
+    "Applicability": "Known persons with relevant evidence or information and intended-witness designation. Physical addresses are not automatically required; apply statutory identity withholding, redaction and protective rules. Record what contact information is actually absent."
+  },
+  {
+    "Id": "law-enforcement-witnesses",
+    "ItemName": "Law-enforcement names and work affiliations",
+    "StatutoryBasis": "CPL 245.20(1)(d)",
+    "Applicability": "Relevant law-enforcement personnel and required witness designation. Do not demand personal addresses; account for undercover identity and protective provisions."
+  },
+  {
+    "Id": "expert-material",
+    "ItemName": "Expert identity, qualifications, reports and opinions",
+    "StatutoryBasis": "CPL 245.20(1)(f)",
+    "Applicability": "When an expert is expected at trial or a pretrial hearing, evaluate required identity/business contact, CV, publications, reports or opinion summary and proficiency history/results. Apply reasonable-unavailability and statutory later-disclosure rules."
+  },
+  {
+    "Id": "other-recordings",
+    "ItemName": "Dash camera, surveillance, station-house and other recordings",
+    "StatutoryBasis": "CPL 245.20(1)(g)",
+    "Applicability": "Evaluate separately from BWC, 911 and radio when packet facts identify recordings. Consider intended-exhibit designation, over-ten-hour procedures and lawful availability/timing restrictions. Video references in PDFs do not mean actual video was supplied for analysis."
+  },
+  {
+    "Id": "other-images",
+    "ItemName": "Other relevant photographs, drawings and property reproductions",
+    "StatutoryBasis": "CPL 245.20(1)(h), (i)",
+    "Applicability": "Evaluate qualifying photographs and drawings by law enforcement or intended witnesses, and law-enforcement reproductions of property before release. Avoid duplicating the crash-photograph finding."
+  },
+  {
+    "Id": "scientific-records",
+    "ItemName": "Scientific testing, laboratory and examination records",
+    "StatutoryBasis": "CPL 245.20(1)(j)",
+    "Applicability": "When relevant testing/examination is shown, evaluate reports, preliminary/screening results, bench notes, raw/electronic data, laboratory management records, conflicting analyses and required nonconformance information. Results need not be produced before testing is complete; account for outside-laboratory procedures."
+  },
+  {
+    "Id": "favorable-material",
+    "ItemName": "Exculpatory, defense-supporting, impeachment and mitigation material",
+    "StatutoryBasis": "CPL 245.20(1)(k)",
+    "Applicability": "Evaluate supported guilt-negating, culpability-reducing, defense, identity, suppression, impeachment and punishment-mitigation evidence. Police disciplinary/IAB records require actual relevant impeachment value; do not assume every such document is discoverable or infer favorable contents."
+  },
+  {
+    "Id": "witness-benefits",
+    "ItemName": "Witness promises, rewards, inducements and requests for consideration",
+    "StatutoryBasis": "CPL 245.20(1)(l)",
+    "Applicability": "Evaluate when facts indicate a benefit, agreement or request involving a potential prosecution witness. Do not infer an undisclosed deal solely because a witness cooperated."
+  },
+  {
+    "Id": "defendant-property",
+    "ItemName": "Defendant/co-defendant tangible-object list and recovery information",
+    "StatutoryBasis": "CPL 245.20(1)(m)",
+    "Applicability": "Objects obtained from or allegedly possessed by a defendant/co-defendant, required possession/recovery designations and inspection availability. Identify missing documentation or access rather than insisting a physical object appear inside a PDF."
+  },
+  {
+    "Id": "search-warrant",
+    "ItemName": "Search-warrant materials",
+    "StatutoryBasis": "CPL 245.20(1)(n)",
+    "Applicability": "When execution of a warrant is shown, evaluate warrant, application, affidavits, inventory and supporting testimony/oral communications. Account for lawful protective restrictions; do not infer a warrant from a search that may have used another basis."
+  },
+  {
+    "Id": "exhibits",
+    "ItemName": "Tangible property and exhibit designations",
+    "StatutoryBasis": "CPL 245.20(1)(o)",
+    "Applicability": "Relevant tangible property and designation of intended trial/hearing exhibits. Account for statutory timing where exhibit intentions were not yet formed. Physical property need not be embedded in an uploaded document."
+  },
+  {
+    "Id": "convictions",
+    "ItemName": "Applicable defendant and witness conviction records",
+    "StatutoryBasis": "CPL 245.20(1)(p)",
+    "Applicability": "Required conviction records for defendants and designated potential civilian prosecution witnesses other than experts. Do not infer convictions exist; consider documented records checks and supplied results."
+  },
+  {
+    "Id": "pending-actions",
+    "ItemName": "Known pending criminal actions involving applicable witnesses",
+    "StatutoryBasis": "CPL 245.20(1)(q)",
+    "Applicability": "Known pending actions for designated potential civilian prosecution witnesses. Do not invent a pending prosecution or prosecution knowledge."
+  },
+  {
+    "Id": "incident-details",
+    "ItemName": "Date, time and place of offense, seizure and arrest",
+    "StatutoryBasis": "CPL 245.20(1)(r)",
+    "Applicability": "Evaluate whether approximate dates, times and locations are supplied anywhere in the packet. A separate form is unnecessary if the required information appears in another document."
+  },
+  {
+    "Id": "breath-result",
+    "ItemName": "Breath-test result and printout",
+    "StatutoryBasis": "CPL 245.20(1)(j)",
+    "Applicability": "Expected where completed breath testing is established. Identify the supported result/printout or missing raw record without inventing a result. Do not assume testing occurred merely from a DWI charge."
+  },
+  {
+    "Id": "breath-operator-paperwork",
+    "ItemName": "Breath-test operator paperwork",
+    "StatutoryBasis": "CPL 245.20(1)(e), (j), (s)",
+    "Applicability": "This category covers a DISTINCT identified operator checklist or testing form, not the operator certificate, instrument records or result printout covered elsewhere. MISSING requires a source that specifically names or describes that separate record and supports its existence. Breath testing, a general request for operator records, or an absent operator certificate does not establish a separate checklist/form. If no distinct record is identified, classify UNDETERMINED and do not repeat the certificate omission here. Do not claim a source mentions operator paperwork when it mentions only certification."
+  },
+  {
+    "Id": "instrument-certification",
+    "ItemName": "Scientific-instrument certification records",
+    "StatutoryBasis": "CPL 245.20(1)(s)",
+    "Applicability": "For an applicable VTL scientific test, evaluate instrument certification for the relevant statutory period. Distinguish instrument certification from operator certification and reference-standard certification."
+  },
+  {
+    "Id": "instrument-inspection",
+    "ItemName": "Scientific-instrument inspection records",
+    "StatutoryBasis": "CPL 245.20(1)(s)",
+    "Applicability": "Evaluate applicable inspection records for the testing instrument and six-month-before/after period. Do not infer a specific inspection or mark future/uncreated records overdue."
+  },
+  {
+    "Id": "reference-standards",
+    "ItemName": "Reference-standard records and certifications",
+    "StatutoryBasis": "CPL 245.20(1)(s)",
+    "Applicability": "Evaluate applicable reference-standard certification and gas-chromatography records when supported scientific testing used the standards. Do not demand a record for a testing method not used."
+  },
+  {
+    "Id": "blood-urine-testing",
+    "ItemName": "Blood or urine test reports and supporting laboratory material",
+    "StatutoryBasis": "CPL 245.20(1)(j), (s)",
+    "Applicability": "Evaluate completed blood/urine testing and applicable scientific-instrument records only where the packet supports that testing. Breath testing alone does not establish that blood or urine samples were collected."
+  },
+  {
+    "Id": "collection-chain",
+    "ItemName": "Sample collection and chain-of-custody records",
+    "StatutoryBasis": "CPL 245.20(1)(e), (j), (m)",
+    "Applicability": "Evaluate relevant collection, handling and transfer records for samples or evidence shown by the packet. Do not invent a missing transfer, specimen or custody event."
+  },
+  {
+    "Id": "field-sobriety-documents",
+    "ItemName": "Field sobriety testing documentation",
+    "StatutoryBasis": "CPL 245.20(1)(e), (j)",
+    "Applicability": "Where field sobriety testing is indicated, evaluate reports, notes and applicable test records. A DWI allegation alone does not prove each test occurred."
+  },
+  {
+    "Id": "field-sobriety-video",
+    "ItemName": "Field sobriety testing video",
+    "StatutoryBasis": "CPL 245.20(1)(g)",
+    "Applicability": "Evaluate only where the packet indicates recording of testing. Cross-reference BWC/dash footage and avoid double-counting the same missing recording as separate evidence."
+  },
+  {
+    "Id": "dwi-paperwork",
+    "ItemName": "Referenced DWI arrest and testing paperwork",
+    "StatutoryBasis": "CPL 245.20(1)(e), (j), (s)",
+    "Applicability": "Residual category only for a DISTINCT named arrest/testing form specifically referenced in a source and not already evaluated under another checklist item. In ReasonExpected, identify that exact form and the source's reference to it. A generic reference to testing, testing records, DWI paperwork or an omnibus discovery request is insufficient. Never restate missing calibration, certification, maintenance, inspection, operator-certificate, media or report items under this umbrella. Without evidence of another distinct form, classify UNDETERMINED rather than MISSING."
+  },
+  {
+    "Id": "computer-offense-details",
+    "ItemName": "Time, place and manner of applicable computer offenses",
+    "StatutoryBasis": "CPL 245.20(1)(t)",
+    "Applicability": "Applies to prosecutions alleging Penal Law 156.05 or 156.10. Otherwise classify this narrow category as not applicable; do not invent a computer-offense charge."
+  },
+  {
+    "Id": "electronic-data",
+    "ItemName": "Seized or obtained electronically stored information",
+    "StatutoryBasis": "CPL 245.20(1)(u)",
+    "Applicability": "Evaluate supported device, account or other data obtained by law enforcement and applicable complete-copy obligations. Account for supervised contraband access, scope and reasonable-unavailability timing. References to a device alone do not prove data was seized or extracted."
+  },
+  {
+    "Id": "other-relevant-material",
+    "ItemName": "Other relevant charge or defense material",
+    "StatutoryBasis": "CPL 245.20(1)(v)",
+    "Applicability": "Evaluate specifically evidenced relevant material not covered by another category. This is not permission to invent unspecified missing discovery or ignore custody/control and statutory exceptions."
+  },
+  {
+    "Id": "coc",
+    "ItemName": "Certificate of Compliance",
+    "StatutoryBasis": "CPL 245.50(1), (3)-(6)",
+    "Applicability": "Identify COC filing/service, listed productions, known outstanding items and documented efforts. Compare stated production with this packet without assuming it is the complete production. Do not silently equate filing with service or COC with readiness."
+  },
+  {
+    "Id": "supplemental-coc",
+    "ItemName": "Supplemental Certificates of Compliance",
+    "StatutoryBasis": "CPL 245.50(1), (1-a)",
+    "Applicability": "A supplemental certificate accompanies ADDITIONAL discovery actually provided after the initial COC. MISSING requires affirmative evidence of that later delivery or of an actual supplemental certificate not included in the packet. An admission of omissions, an unfulfilled request, lack of correction or an invalid initial COC does NOT itself trigger or establish a missing supplemental certificate. If the record affirmatively shows no later production, classify NOT_APPLICABLE; if later production is unknown, classify UNDETERMINED. Record lack of remediation in ProceduralFindings instead. Later disclosure alone does not invalidate the initial COC."
+  },
+  {
+    "Id": "readiness",
+    "ItemName": "Statements of Readiness",
+    "StatutoryBasis": "CPL 30.30(5); CPL 245.50(3)",
+    "Applicability": "Identify actual readiness statements and dates from the packet; never invent one from a COC filing. Preserve attorney-supplied ProsecutionChargeableDays unchanged and do not reconstruct exclusions, readiness accounting or chargeable time."
+  }
+]

@@ -1,0 +1,186 @@
+{
+  "Statutes": [
+    {
+      "Citation": "CPL 245.20(1)",
+      "Rule": "The prosecution shall disclose to the defendant, and permit the defendant to discover, inspect, copy, photograph and test the following material and information in the possession, custody or control of the prosecution or persons under the prosecution's direction or control.",
+      "SourceUrl": "https://www.nysenate.gov/legislation/laws/CPL/245.20"
+    },
+    {
+      "Citation": "CPL 245.20(2)",
+      "Rule": "The prosecutor shall make a diligent, good faith effort to ascertain the existence of material or information discoverable under subdivision one of this section and to cause such material or information to be made available for discovery where it exists but is not within the prosecutor's possession, custody or control. Items and information related to prosecution of a charge held by a New York state or local police or law-enforcement agency are deemed in the prosecution's possession. The statute does not require obtaining by subpoena material the defense can obtain by subpoena, or identifying witnesses unknown to law enforcement.",
+      "SourceUrl": "https://www.nysenate.gov/legislation/laws/CPL/245.20"
+    },
+    {
+      "Citation": "CPL 245.10(1)(a)",
+      "Rule": "Initial discovery is due as soon as practicable, generally within 20 calendar days after arraignment for a defendant in custody and 35 calendar days for a defendant not in custody. Apply the statutory exceptions, extensions and protective-order provisions. Do not infer custody status or declare a deadline violated without the relevant facts.",
+      "SourceUrl": "https://www.nysenate.gov/legislation/laws/CPL/245.10"
+    },
+    {
+      "Citation": "CPL 245.20(1)(b), (f), (g), (j), (s), (u)",
+      "Rule": "Apply category-specific timing and availability rules. Unavailable grand-jury transcripts and expert material can have later disclosure deadlines. The electronic-recording rule has special provisions when recordings exceed ten hours. Scientific-test results need not be supplied before the test is completed. Later-created six-month-after instrument records have their own deadline. Electronic data can be subject to a statutory stay. Do not equate a not-yet-created or lawfully deferred item with an overdue disclosure.",
+      "SourceUrl": "https://www.nysenate.gov/legislation/laws/CPL/245.20"
+    },
+    {
+      "Citation": "CPL 245.20(1)(c), (d), (g), (k)",
+      "Rule": "Witness disclosure is subject to statutory withholding, redaction and protective provisions; physical addresses are not automatically required. Impeachment material must actually tend to impeach a testifying prosecution witness. Do not presume every police disciplinary or IAB document is discoverable merely because it exists or mentions misconduct. Do not treat an authorized redaction as a violation.",
+      "SourceUrl": "https://www.nysenate.gov/legislation/laws/CPL/245.20"
+    },
+    {
+      "Citation": "CPL 245.50(1)",
+      "Rule": "A prosecution COC follows due diligence and good-faith reasonable inquiries and efforts to obtain and provide CPL 245.20(1) discovery, subject to the statute's exceptions. It must state that all known discoverable material obtained has been disclosed and made available, identify the items provided, and identify known required items that could not be obtained despite due diligence. A missing item alone does not establish an invalid COC.",
+      "SourceUrl": "https://www.nysenate.gov/legislation/laws/CPL/245.50"
+    },
+    {
+      "Citation": "CPL 245.50(1-a)",
+      "Rule": "A supplemental COC must explain delayed disclosure. Later disclosure does not itself invalidate an original COC filed in good faith after due diligence, or where the additional discovery did not exist at original filing. Later remediation does not alone prove that diligence preceded certification.",
+      "SourceUrl": "https://www.nysenate.gov/legislation/laws/CPL/245.50"
+    },
+    {
+      "Citation": "CPL 245.50(3)",
+      "Rule": "the prosecution shall not be deemed ready for trial for purposes of section 30.30 of this chapter until it has filed a valid certificate pursuant to subdivision one of this section. This core rule is subject to the statutory exceptions, including an individualized special-circumstances finding and discoverable material unavailable despite the requisite diligent and good-faith efforts. A COC and a statement of readiness are distinct documents; do not invent a readiness statement.",
+      "SourceUrl": "https://www.nysenate.gov/legislation/laws/CPL/245.50"
+    },
+    {
+      "Citation": "CPL 245.50(4)(a)-(c)",
+      "Rule": "COC challenges are made by motion. A challenge generally must be made within 35 days after SERVICE of the certificate where an indictment or information was filed before the COC. The challenge requires an affirmation of timely good-faith conferral or efforts to confer about the specific issues after certification, unsuccessful efforts to resolve them and no accommodation. Filing date does not establish service date. Do not invent service, charging-instrument timing, conferral or compliance.",
+      "SourceUrl": "https://www.nysenate.gov/legislation/laws/CPL/245.50"
+    },
+    {
+      "Citation": "CPL 245.50(4)(c)(i)-(ii)",
+      "Rule": "An extension for good cause can be sought before the 35-day period expires. A later challenge may be available for a material change in circumstances, including belated discovery, or where due diligence could not have revealed the specific basis earlier. Invoke an extension or exception only on supplied supporting facts. Do not infer an exception simply from an otherwise late motion or calculate its speedy-trial consequences.",
+      "SourceUrl": "https://www.nysenate.gov/legislation/laws/CPL/245.50"
+    },
+    {
+      "Citation": "CPL 245.50(5)",
+      "Rule": "Assess the TOTALITY of prosecution efforts, not item-by-item strict liability. Consider: efforts to comply; discovery provided and outstanding; complexity; knowledge the missing or late material existed; explanation for the lapse; response after notification; whether it was duplicative, insignificant or easily remedied; correction; self-reporting and prompt remediation without intervention; and prejudice or impairment of defense investigation or preparation. Consider all applicable factors; none is determinative. Apply supported favorable and adverse facts. Missing documentation of efforts in an uploaded packet does not prove no efforts occurred. Do not invent prejudice.",
+      "SourceUrl": "https://www.nysenate.gov/legislation/laws/CPL/245.50"
+    },
+    {
+      "Citation": "CPL 245.50(6)",
+      "Rule": "A court shall not invalidate a COC where the party exercised due diligence and acted in good faith in making reasonable inquiries and efforts to obtain and provide the required material. An omission is not an automatic invalidation rule.",
+      "SourceUrl": "https://www.nysenate.gov/legislation/laws/CPL/245.50"
+    },
+    {
+      "Citation": "CPL 245.80(1)-(2)",
+      "Rule": "Distinguish two theories. Under the primary speedy-trial theory, an invalid COC cannot ordinarily support readiness and dismissal depends on expiration of the applicable CPL 30.30 period. Separately, discovery-sanction dismissal requires consideration of other remedies and must be appropriate and proportionate to prejudice. Belated disclosure can require preparation time or other proportionate relief without invalidating a diligent COC. Lost or destroyed evidence has its own remedy standard. Do not conflate discovery sanctions with statutory speedy-trial dismissal.",
+      "SourceUrl": "https://www.nysenate.gov/legislation/laws/CPL/245.80"
+    },
+    {
+      "Citation": "CPL 30.30(1)(a)-(d)",
+      "Rule": "Readiness periods: at least one felony, six calendar months; no felony and a misdemeanor punishable by more than three months, 90 days; no more serious crime and a misdemeanor punishable by not more than three months, 60 days; violation and no crime, 30 days. Use the attorney-supplied charge classification and ProsecutionChargeableDays unchanged. Never reconstruct adjournments, calculate exclusions, derive chargeable days from dates, audit the attorney's figure or replace six months with a fixed 180-day limit. Argue dismissal only when the supplied record establishes expiration and supports the required COC/readiness analysis; otherwise do not assert expiration.",
+      "SourceUrl": "https://www.nysenate.gov/legislation/laws/CPL/30.30"
+    },
+    {
+      "Citation": "CPL 30.30(3)(a), (5)",
+      "Rule": "Certain homicide prosecutions are excepted by subdivision (3)(a); do not apply the ordinary periods blindly to those charges. Readiness ordinarily requires the requisite discovery certification and actual readiness. The attorney's chargeable-day figure is authoritative input, not a substitute for identifying the governing statutory rule or evidence of a readiness declaration.",
+      "SourceUrl": "https://www.nysenate.gov/legislation/laws/CPL/30.30"
+    },
+    {
+      "Citation": "CPL 170.30(1)(e); CPL 210.20(1)(g)",
+      "Rule": "Use CPL 170.30(1)(e) for the applicable local-criminal-court accusatory instrument and CPL 210.20(1)(g) for an indictment when seeking statutory speedy-trial dismissal under CPL 30.30. Select from the actual charging instrument and court; do not invent an indictment or substitute a discovery-sanction standard.",
+      "SourceUrl": "https://www.nysenate.gov/legislation/laws/CPL/30.30"
+    }
+  ],
+  "Cases": [
+    {
+      "Name": "People v Bay",
+      "Citation": "People v Bay, 41 NY3d 200 (2023)",
+      "Court": "New York Court of Appeals",
+      "Year": 2023,
+      "Summary": "COC validity requires due diligence and reasonable inquiry; good faith alone is insufficient. The inquiry is case-specific and does not demand a perfect prosecutor or impose strict liability. Failure to establish diligence can invalidate the COC and readiness; dismissal follows when applicable chargeable time has expired.",
+      "Direction": "supports",
+      "Applicability": "Foundational statewide authority. Apply together with the 2025 amendments, including totality and the prejudice/impairment factor. Do not treat every late item as fatal or say prejudice is currently irrelevant.",
+      "SourceUrl": "https://www.nycourts.gov/reporter/3dseries/2023/2023_06407.htm"
+    },
+    {
+      "Name": "People v Fuentes",
+      "Citation": "People v Fuentes, 2025 NY Slip Op 05872 (2025)",
+      "Court": "New York Court of Appeals",
+      "Year": 2025,
+      "Summary": "A reference to impeachment allegations does not automatically make a document discoverable under CPL 245.20(1)(k). The particular IAB report supplied no additional impeachment value beyond allegations already disclosed. The Court upheld the COCs without reaching diligence and did not resolve the general scope of unrelated police misconduct discovery.",
+      "Direction": "limits",
+      "Applicability": "Decided October 23, 2025. Do not create a blanket exemption for IAB, exonerated or unrelated disciplinary records. Assess actual impeachment value. Current totality and prejudice-factor rules come from amended CPL 245.50; do not misstate them as a diligence holding in Fuentes.",
+      "SourceUrl": "https://www.nycourts.gov/reporter/3dseries/2025/2025_05872.htm"
+    },
+    {
+      "Name": "People v Adams",
+      "Citation": "People v Adams (Selvin), 2026 NY Slip Op 50233(U) (App Term, 1st Dept 2026)",
+      "Court": "Appellate Term, First Department",
+      "Year": 2026,
+      "Summary": "The COC represented that 911 recordings, radio runs and Sprint material were furnished, but they were not. The People did not adequately demonstrate requests, follow-up or cross-checking of promised versus delivered discovery. The court invalidated the COC and dismissed after the applicable speedy-trial period expired.",
+      "Direction": "supports",
+      "Applicability": "Decided February 26, 2026. Useful for a supported COC/production mismatch. Missing material from the packet alone does not prove the full production was deficient. Apply current statute and appropriate territorial authority; not statewide Court of Appeals precedent.",
+      "SourceUrl": "https://www.nycourts.gov/reporter/3dseries/2026/2026_50233.htm"
+    },
+    {
+      "Name": "People v Zeigler",
+      "Citation": "People v Zeigler (Nalik), 2026 NY Slip Op 50232(U) (App Term, 1st Dept 2026)",
+      "Court": "Appellate Term, First Department",
+      "Year": 2026,
+      "Summary": "In a DWI case involving an officer defendant, critical IAB recordings of interviews with responding officers were missing at certification. Vague assertions of retrieval efforts did not establish diligence; good faith alone was insufficient. The court reversed and dismissed after the speedy-trial period expired.",
+      "Direction": "supports",
+      "Applicability": "Decided February 26, 2026. The recordings concerned the charged incident; this is not a ruling that every disciplinary file is discoverable. Useful where the record establishes important missing law-enforcement material and inadequate demonstrated efforts. Apply current statute and territorial authority.",
+      "SourceUrl": "https://www.nycourts.gov/reporter/3dseries/2026/2026_50232.htm"
+    },
+    {
+      "Name": "People v Lee",
+      "Citation": "People v Lee, 249 AD3d 555 (1st Dept 2026)",
+      "Court": "Appellate Division, First Department",
+      "Year": 2026,
+      "Summary": "Belated disclosure does not automatically invalidate a COC. A holistic, case-specific assessment showed diligence where delayed communications were comparatively minor within extensive discovery. The court reversed dismissal and reinstated the indictment.",
+      "Direction": "limits",
+      "Applicability": "Also reported as 2026 NY Slip Op 03125, decided May 19, 2026. Distinguish supported important omissions from relatively minor late items; do not use an item-by-item strict-liability test. Identify the applicable department rather than describing it as statewide Court of Appeals authority.",
+      "SourceUrl": "https://www.nycourts.gov/reporter/current/3dseries/2026/2026_03125.shtml"
+    },
+    {
+      "Name": "People v Mesan-Moran",
+      "Citation": "People v Mesan-Moran, 88 Misc 3d 416 (Crim Ct, Bronx County 2025)",
+      "Court": "Criminal Court of the City of New York, Bronx County",
+      "Year": 2025,
+      "Summary": "In a DWI prosecution, the court applied amended CPL 245.50(5) to delayed or outstanding 911 material, police records, impeachment information and civilian-witness contacts. It considered favorable remediation facts but found inadequate diligence. Invalid certification did not stop the clock; 100 chargeable days exceeded the 90-day period and dismissal followed.",
+      "Direction": "supports",
+      "Applicability": "Persuasive trial-level decision dated August 14, 2025, also 2025 NY Slip Op 25188. Useful for applying amended totality factors, not controlling statewide precedent. Read its impeachment discussion in light of later Fuentes. Its 100-day figure belongs only to that case; never import it into another case.",
+      "SourceUrl": "https://www.nycourts.gov/reporter/3dseries/2025/2025_25188.htm"
+    },
+    {
+      "Name": "People v James",
+      "Citation": "People v James, 229 AD3d 1008 (3d Dept 2024)",
+      "Court": "Appellate Division, Third Department",
+      "Year": 2024,
+      "Summary": "Discovery compliance is tied to readiness, and diligence must be assessed on a case-specific record. General assurances and descriptions of office practices did not resolve the effect of belated additions to a witness list. The appeal was held in abeyance and the case remitted for further findings, not dismissed by this decision.",
+      "Direction": "context",
+      "Applicability": "Use for the need for meaningful inquiry and an adequate diligence record. Apply the later 2025 amendments. Do not invent a finding of invalidity or dismissal, and do not describe another department's decision as automatically controlling in the user's court.",
+      "SourceUrl": "https://www.nycourts.gov/Reporter/3dseries/2024/2024_03910.htm"
+    },
+    {
+      "Name": "People v Gaskin",
+      "Citation": "People v Gaskin, 214 AD3d 1353 (4th Dept 2023)",
+      "Court": "Appellate Division, Fourth Department",
+      "Year": 2023,
+      "Summary": "The court rejected using prejudice alone to decide COC validity and distinguished discovery sanctions from certification/readiness. It held the case, reserved decision and remitted for the trial court to determine whether certification was proper under the then-operative statute.",
+      "Direction": "context",
+      "Applicability": "Use for the broader COC/readiness framework and distinct sanction theory. It is not an actual dismissal holding. Current CPL 245.50(5) expressly includes prejudice and impairment as one factor, so do not argue that prejudice is irrelevant or solely decisive.",
+      "SourceUrl": "https://www.nycourts.gov/reporter/3dseries/2023/2023_01415.htm"
+    },
+    {
+      "Name": "People v Williams",
+      "Citation": "People v Williams, 224 AD3d 998 (3d Dept 2024)",
+      "Court": "Appellate Division, Third Department",
+      "Year": 2024,
+      "Summary": "The court upheld certification despite belated disclosure, considering extensive earlier production, acknowledgment of specified outstanding items and the circumstances at certification. Later production does not by itself establish that the original COC lacked diligence. Additional discovery sanctions remain a separate issue.",
+      "Direction": "limits",
+      "Applicability": "Use to prevent automatic missing-item-equals-dismissal arguments; distinguish factually when supported. Apply current totality factors. This is not permission to withhold indefinitely or a rule that a supplemental COC cures an initially undiligent certification.",
+      "SourceUrl": "https://www.nycourts.gov/Reporter/3dseries/2024/2024_00654.htm"
+    },
+    {
+      "Name": "People v Drayton",
+      "Citation": "People v Drayton, 231 AD3d 1057 (2d Dept 2024)",
+      "Court": "Appellate Division, Second Department",
+      "Year": 2024,
+      "Summary": "The court upheld a COC where grand-jury transcripts were not yet completed, the COC acknowledged the obligation to provide them and they were disclosed within a reasonable time after receipt. The record established diligence; omission of those unavailable transcripts did not make readiness illusory.",
+      "Direction": "limits",
+      "Applicability": "Use where the record actually supports unavailability and reasonable later production. Do not assume minutes were uncreated solely because the packet lacks them. Apply statutory transcript timing, current amendments and the appropriate territorial authority.",
+      "SourceUrl": "https://www.nycourts.gov/reporter/3dseries/2024/2024_05222.htm"
+    }
+  ]
+}
